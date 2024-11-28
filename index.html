@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>addmin-pannel</title>
+   <!-- icon css -->
+   <link href="images/download.png" rel="icon" type="image/png"/>
+
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- font awosome -->
+    <link rel="stylesheet" href="css/all.min.css">
+
+    <!-- fonts -->
+    <link rel="stylesheet" href="css/fonts.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+         <div class="main-wrapper d-flex position-fixed">
+            <div class="left-bar top-0 vh-100 text-light">
+                    <div class="container">
+                    <div class="logo text-center py-3">
+                        <h4 class="display-7"><i class="fa-solid fa-layer-group" style="color: rgb(95, 95, 195);"></i> App Stacks</h4>
+                    </div>
+                    <ul class="navbar-nav ">
+                        <li class="nav-item ms-3 py-2 " style="font-size: 14px;">
+                                pages
+                         </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link ms-3 opacity-75" type="button" style="font-size: 14px;">
+                                <i class="fa-solid fa-sliders fs-6 me-3"></i> Dashboard<span class="float-end bg-primary text-center rounded " style="width: 18px; font-size: 12px;">5</span>
+                            </a>
+                           
+                        </li>
+                        <li class="nav-item opacity-75">
+                            <a href="#" class="nav-link ms-3"style="font-size: 14px;">
+                                <i class="fa-solid fa-table-columns fs-6 me-3"></i> pages <i class="fa-solid fa-angle-down float-end"></i>
+                            </a>
+                        </li>
+                      
+                        <li class="nav-item opacity-75">
+                            <a href="#" class="nav-link ms-3"style="font-size: 14px;">
+                                <i class="fa-solid fa-user-group me-3 fs-6"></i>Auth<span class="float-end bg-primary text-center rounded" style="width: 50px; font-size: 12px;">special</span>
+                            </a>
+                        </li>
+
+                        <li class="nav-item opacity-75">
+                            <a href="#" class="nav-link ms-3"style="font-size: 14px;">
+                                <i class="fa-solid fa-book-open fs-6 me-3"></i>Documentaion<i class="fa-solid fa-angle-down float-end"></i>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <ul class="navbar-nav ">
+                        <li class="nav-item ms-3 py-2 mt-3" style="font-size: 14px;">
+                                Tool & Component
+                         </li>
+                        <li class="nav-item ">
+                            <a href="#" class="nav-link ms-3 opacity-75"style="font-size: 14px;">
+                                <i class="fa-solid fa-border-all fs-6 me-3"></i>UI element <i class="fa-solid fa-angle-down float-end"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item opacity-75">
+                            <a href="#" class="nav-link ms-3"style="font-size: 14px;">
+                                <i class="fa-regular fa-heart me-3 fs-6"></i>icons<span class="float-end bg-primary text-center rounded" style="width: 50px; font-size: 12px;">1500 +</span>
+                            </a>
+                        </li>
+                      
+                        <li class="nav-item opacity-75">
+                            <a href="#" class="nav-link ms-3"style="font-size: 14px;">
+                                <i class="fa-regular fa-square-check me-3 fs-6"></i>Forms <i class="fa-solid fa-angle-down float-end"></i>
+                            </a>
+                        </li>
+
+                        <li class="nav-item opacity-75">
+                            <a href="#" class="nav-link ms-3"style="font-size: 14px;">
+                                <i class="fa-solid fa-list me-3 fs-6"></i>Tables<i class="fa-solid fa-angle-down float-end"></i>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <ul class="navbar-nav ">
+                        <li class="nav-item ms-3 py-2 mt-3" style="font-size: 14px;">
+                                Plugins & Addons
+                         </li>
+                        <li class="nav-item  opacity-75">
+                            <a href="#" class="nav-link ms-3 opacity-75"style="font-size: 14px;">
+                                <i class="fa-regular fa-square-check me-3 fs-6"></i>form-plugin <i class="fa-solid fa-angle-down float-end"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item opacity-75">
+                            <a href="#" class="nav-link ms-3"style="font-size: 14px;">
+                                <i class="fa-solid fa-list me-3 fs-6"></i>Datatables <i class="fa-solid fa-angle-down float-end"></i>
+                            </a>
+                        </li>
+                      
+                        <li class="nav-item opacity-75">
+                            <a href="#" class="nav-link ms-3"style="font-size: 14px;">
+                                <i class="fa-solid fa-clock fs-6 me-3"></i> Charts <span class="float-end bg-primary text-center rounded" style="width: 30px; font-size: 12px;">new</span>
+                            </a>
+                        </li>
+
+                        <li class="nav-item opacity-75">
+                            <a href="#" class="nav-link ms-3"style="font-size: 14px;">
+                                <i class="fa-regular fa-bell fs-6 me-3"></i>Notification
+                            </a>
+                        </li>
+                        <li class="nav-item opacity-75">
+                            <a href="#" class="nav-link ms-3 opacity-75"style="font-size: 14px;">
+                                <i class="fa-solid fa-location-dot me-3 fs-6"></i>Maps<i class="fa-solid fa-angle-down float-end"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item opacity-75">
+                            <a href="#" class="nav-link ms-3"style="font-size: 14px;">
+                                <i class="fa-regular fa-calendar me-3 fs-6"></i>Calendar
+                            </a>
+                        </li>
+                        <li class="nav-item opacity-75">
+                            <a href="#" class="nav-link ms-3 opacity-75"style="font-size: 14px;">
+                                <i class="fa-solid fa-diagram-project me-3 fs-6"></i>Multi-levale<i class="fa-solid fa-angle-down float-end"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="box ms-3 mt-5 " style="width: 200px; height: 160px; background-color: rgb(35, 35, 71);">
+                        <div class="box-content p-3">
+                            <h6 class="text-center ">Monthly Sales Report</h6>
+                            <h6 class="ms-2 mt-2 display-7 opacity-75" style="font-size: 13px;">Your monthly sales report is ready for download!</h6>
+                            <button type="button" class="btn btn-primary btn-sm ms-2 mt-3" style="width: 140px;">Download</button>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+
+                </div>
+            </div>
+             </div>
+
+             <!-- right bar -->
+
+          <div class="right-bar">
+            <header class="head shadow p-3">
+                <div class="container-fluid">
+                    <div class="d-flex">
+                       
+                       
+                        <div class="toggle-menu">
+                            <i class="fa-solid fa-bars fs-3"></i>
+                        </div>
+                        <div class="form ms-4">
+                            <input type="text" class="form-control" placeholder="Search projects…" aria-label="Search">
+                        </div>
+                        <ul class="navbar-nav ms-3 col">
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    menus  <i class="fa-solid fa-angle-down" style="font-size: 12px;"></i>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Alert</a></li>
+                                    <li><a class="dropdown-item" href="#">Button</a></li>
+                                    <li><a class="dropdown-item" href="#">Card-carousal</a></li>
+                                    <li><a class="dropdown-item" href="#">Grid</a></li>
+                                    <li><a class="dropdown-item" href="#">Tabes</a></li>
+                                    <li><a class="dropdown-item" href="#">Taypographiy</a></li>
+
+                                  </ul>
+                            </li>
+                        </ul>
+                        <div class="mssage me-3 fs-5">
+                            <i class="fa-regular fa-comment"></i>
+                        </div>
+                        <div class="bell me-3 fs-5">
+                            <i class="fa-solid fa-bell-slash"></i>
+                        </div>
+                        <a class="nav-link dropdown-toggle d-none d-sm-inline-block" href="#" data-bs-toggle="dropdown">
+                            <img src="images/WhatsApp Image 2023-04-08 at 18.42.46.jpg" class="img rounded-circle me-2">Chris Wood</span>
+                          </a>
+                     </div> 
+                </div>
+
+            </header>
+
+            <div class="main-content p-3">
+                <div class="container-fluid">
+                    <div class="d-flex flex-wrap mb-2 mb-xl-3">
+                        <div class="col-auto d-none d-sm-block">
+                            <h3 class="fs-5">Dashboard</h3>
+                        </div>
+    
+                        <div class="col-auto ms-auto text-end mt-n1">
+    
+                            <div class="dropdown me-2 d-inline-block ">
+                                <a class="btn btn-light bg-white shadow-sm dropdown-toggle" href="#" data-bs-toggle="dropdown" data-bs-display="static">
+                                <i class="fa-regular fa-calendar"></i> today
+                                 </a>
+    
+                                <div class="dropdown-menu p-2">
+                                    <h6 class="nav-link">Settings</h6>
+                                    <a class="nav-link" href="#">Action</a>
+                                    <a class="nav-link" href="#">Another action</a>
+                                    <a class="nav-link" href="#">Something else here</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Separated link</a>
+                                </div>
+                            </div>
+    
+                            <button class="btn btn-primary shadow-sm">
+                                <i class="fa-solid fa-filter"></i>
+                             </button>
+                            <button class="btn btn-primary shadow-sm">
+                                <i class="fa-solid fa-arrows-rotate"></i>
+     
+                             </button>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+
+
+            <!-- boxes -->
+            <div class="container-fluid">
+                <div class="d-flex flex-wrap">
+                    <div class="col-6 p-2">  
+                        <div class="box p-2 bg-primary-subtle rounded shadow">
+                            <div class="d-flex flex-wrap">
+                                <div class="col-6">
+                                    <div class="illustration-text p-3 m-1 text-primary">
+                                        <h4 class="illustration-text fs-5 ">Welcome Back, Chris!</h4>
+                                        <p class="mb-0">AppStack Dashboard</p>
+                                    </div>
+                                </div>
+                                <div class="col-6 align-self-end text-end img-first">
+                                    <img src="images/customer-support.png" alt="Customer Support" class="img-fluid illustration-img " >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-6 p-2">
+                        <div class="box p-4 bg-light rounded shadow-sm">
+                            <div class="d-flex align-items-start">
+                                <div class="flex-grow-1">
+                                    <h3 class="mb-2 fs-5">$ 24.300</h3>
+                                    <p class="mb-2">Total Earnings</p>
+                                    <div class="mb-0">
+                                        <span class="badge  me-2 bg-success opacity-75"> +5.35% </span>
+                                        <span class="text-muted">Since last week</span>
+                                    </div>
+                                </div>
+                                <div class="d-inline-block ms-3">
+                                    <div class="stat bg-primary-subtle rounded-pill text-center">
+                                        <i class="fa-solid fa-dollar-sign fs-3 text-primary mt-2"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 p-2">
+                        <div class="box p-4 bg-light rounded shadow-sm">
+                            <div class="d-flex align-items-start">
+                                <div class="flex-grow-1">
+                                    <h3 class="mb-2 fs-5">43</h3>
+                                    <p class="mb-2">Pending Orders</p>
+                                    <div class="mb-0">
+                                        <span class="badge  me-2 bg-danger opacity-75"> -4.25% </span>
+                                        <span class="text-muted">Since last week</span>
+                                    </div>
+                                </div>
+                                <div class="d-inline-block ms-3">
+                                    <div class="stat bg-primary-subtle rounded-pill text-center">
+                                        <i class="fa-solid fa-basket-shopping fs-3 text-primary mt-2"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-6 p-2">
+                        <div class="box p-4 bg-light rounded shadow-sm">
+                            <div class="d-flex align-items-start">
+                                <div class="flex-grow-1">
+                                    <h3 class="mb-2 fs-5">$ 18.700</h3>
+                                    <p class="mb-2">Total Revenue</p>
+                                    <div class="mb-0">
+                                        <span class="badge  me-2 bg-success opacity-75"> +8.56% </span>
+                                        <span class="text-muted">Since last week</span>
+                                    </div>
+                                </div>
+                                <div class="d-inline-block ms-3">
+                                    <div class="stat bg-primary-subtle rounded-pill text-center">
+                                        <i class="fa-solid fa-dollar-sign fs-3 text-primary mt-2"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+            </div>
+           
+        <!-- map $ content -->
+
+              
+            <div class="container-fluid">
+                <div class="d-flex flex-wrap">
+                    <div class="col-8 bg-light rounded p-2 ">
+                       <div class="box-map p-4 shadow" id="chart">
+                          <h5 class="mb-5 fs-6">Sales/Revenu</h5>
+                       </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card mt-5 w-100">
+                            <div class="card-header">
+                                <span class="badge bg-info float-end">Today</span>
+                                <h5 class="card-title mb-0 fs-6">Daily feed</h5>
+                            </div>
+                            <div class="card-body">
+                                <div class="d-flex align-items-start">
+                                    <img src="images/avatar-5.jpg" width="36" height="36" class="rounded-circle me-2" alt="Ashley Briggs">
+                                    <div class="flex-grow-1">
+                                        <small class="float-end" style="font-size: 13px;">5m ago</small>
+                                        <strong class="fs-6">Ashley Briggs</strong> started following <strong>Stacie Hall</strong><br>
+                                        <small class="text-muted">Today 7:51 pm</small><br>
+
+                                    </div>
+                                </div>
+
+                                <hr>
+                                <div class="d-flex align-items-start">
+                                    <img src="images/avatar.jpg" width="36" height="36" class="rounded-circle me-2" alt="Chris Wood">
+                                    <div class="flex-grow-1">
+                                        <small class="float-end" style="font-size: 13px;">30m ago</small>
+                                        <strong class="fs-6 ">Chris Wood</strong> posted something on <strong>Stacie Hall</strong>'s timeline<br>
+                                        <small class="text-muted">Today 7:21 pm</small>
+
+                                        <div class="border p-2 mt-1 display-7 " style="font-size: 14px;">
+                                            Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing...
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <hr>
+                                <div class="d-flex align-items-start">
+                                    <img src="images/avatar-4.jpg" width="36" height="36" class="rounded-circle me-2" alt="Stacie Hall">
+                                    <div class="flex-grow-1">
+                                        <small class="float-end" style="font-size: 12px;">1h ago</small>
+                                        <strong style="font-size: 13px;">Stacie Hall</strong> posted a new <br>blog<br>
+
+                                        <small class="text-muted">Today 6:35 pm</small>
+                                    </div>
+                                </div>
+
+                                <hr>
+                                <div class="d-grid">
+                                    <a href="#" class="btn btn-primary">Load more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+                  </div>
+              
+            
+          
+                  <!-- weekly process & chart -->
+
+                  <div class="container-fluid">
+                    <div class="d-flex flex-wrap">
+                        <div class="col-8 p-2">
+                            <div class="box-h p-3 bg-light shadow" id="chart1">
+                            </div>
+                        </div>
+
+                      
+                        <div class="col-4 p-2">
+                            <div class="box-h p-3 bg-light shadow">
+                                <div class="card-body">
+									<ul class="timeline">
+										<li class="timeline-item">
+											<strong>Chat with Carl and Ashley</strong>
+											<span class="float-end text-muted text-sm" style="font-size: 14px;">30m ago</span>
+											<p style="font-size: 13px;">Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris...</p>
+										</li>
+										<li class="timeline-item">
+											<strong>The big launch</strong>
+											<span class="float-end text-muted text-sm" style="font-size: 14px;">2h ago</span>
+											<p style="font-size: 13px;">Sed aliquam ultrices mauris. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Praesent adipiscing. Phasellus ullamcorper ipsum rutrum
+												nunc...</p>
+										</li>
+										<li class="timeline-item">
+											<strong>Coffee break</strong>
+											<span class="float-end text-muted text-sm" style="font-size: 14px;">3h ago</span>
+											<p style="font-size: 13px;">Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo. Maecenas malesuada...</p>
+										</li>
+										<li class="timeline-item">
+											<strong>Chat with team</strong>
+											<span class="float-end text-muted text-sm" style="font-size: 14px;">30m ago</span>
+											<p style="font-size: 13px;">Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum...</p>
+										</li>
+									</ul>
+								</div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+      
+
+
+                  <!-- table  -->
+
+                  <div class="container-fluid ">
+                    <div class="d-flex flex-wrap">
+                        <table class="table mt-5 bg-light shadow">
+                            <thead class="thead-dark">
+                              <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">First</th>
+                                <th scope="col">Last</th>
+                                <th scope="col">Handle</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <th scope="row">1</th>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>@mdo</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">2</th>
+                                <td>Jacob</td>
+                                <td>Thornton</td>
+                                <td>@fat</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">3</th>
+                                <td>Larry</td>
+                                <td>the Bird</td>
+                                <td>@twitter</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          
+                          <table class="table">
+                            <thead class="thead-light bg-danger-subtle">
+                              <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">First</th>
+                                <th scope="col">Last</th>
+                                <th scope="col">Handle</th>
+                              </tr>
+                            </thead>
+                            <tbody class="bg-light shadow">
+                              <tr>
+                                <th scope="row">1</th>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>@mdo</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">2</th>
+                                <td>Jacob</td>
+                                <td>Thornton</td>
+                                <td>@fat</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">3</th>
+                                <td>Larry</td>
+                                <td>the Bird</td>
+                                <td>@twitter</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                    </div>
+                  </div>
+
+                  <!-- <footer></footer> -->
+
+
+                  <footer class="footer mt-4 shadow-sm">
+                    <div class="container-fluid">
+                       <div class="d-flex flex-wrap"> 
+                            <div class="col-6 text-start ">
+                                <ul class="list-inline mt-2">
+                                    <li class="list-inline-item"  >
+                                        <a class="text-muted" href="#" style="text-decoration: none;">Support</a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a class="text-muted" href="#" style="text-decoration: none;">Help Center</a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a class="text-muted" href="#" style="text-decoration: none;">Privacy</a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a class="text-muted" href="#" style="text-decoration: none;">Terms of Service</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-6 text-end ">
+                                <p class="mb-0 mt-2">
+                                    © 2023 - <a href="index.html" class="text-muted">AppStack</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+                  
+
+
+      
+                
+           
+                
+
+                               
+                    
+            
+               
+             
+    
+
+       
+
+
+    <script src="js/jquery-3.7.0.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+
+    <script>
+        $(document).ready(function(){
+            $(".toggle-menu").click(function(){
+
+                $(".left-bar").toggleClass("hide");
+                $(".right-bar").toggleClass("full-width");
+
+
+            })
+        })
+    </script>
+
+    <script>
+        var options = {
+          series: [
+          {
+            name: 'Q1 Budget',
+            group: 'budget',
+            data: [44000, 55000, 41000, 67000, 22000, 43000]
+          },
+          {
+            name: 'Q1 Actual',
+            group: 'actual',
+            data: [48000, 50000, 40000, 65000, 25000, 40000]
+          },
+          {
+            name: 'Q2 Budget',
+            group: 'budget',
+            data: [13000, 36000, 20000, 8000, 13000, 27000]
+          },
+          {
+            name: 'Q2 Actual',
+            group: 'actual',
+            data: [20000, 40000, 25000, 10000, 12000, 28000]
+          }
+        ],
+          chart: {
+          type: 'bar',
+          height: 350,
+          stacked: true,
+        },
+        stroke: {
+          width: 1,
+          colors: ['#fff']
+        },
+        dataLabels: {
+          formatter: (val) => {
+            return val / 1000 + 'K'
+          }
+        },
+        plotOptions: {
+          bar: {
+            horizontal: false
+          }
+        },
+        xaxis: {
+          categories: [
+            'Online advertising',
+            'Sales Training',
+            'Print advertising',
+            'Catalogs',
+            'Meetings',
+            'Public relations'
+          ]
+        },
+        fill: {
+          opacity: 1
+        },
+        colors: ['#80c7fd', '#008FFB', '#80f1cb', '#00E396'],
+        yaxis: {
+          labels: {
+            formatter: (val) => {
+              return val / 1000 + 'K'
+            }
+          }
+        },
+        legend: {
+          position: 'top',
+          horizontalAlign: 'left'
+        }
+        };
+
+        var chart = new ApexCharts(document.querySelector("#chart"), options);
+        chart.render();
+      
+    </script> 
+
+    
+
+   <script>
+     var options = {
+          series: [14, 23, 21, 17, 15, 10, 12, 17, 21],
+          chart: {
+          type: 'polarArea',
+        },
+        stroke: {
+          colors: ['#fff']
+        },
+        fill: {
+          opacity: 0.8
+        },
+        responsive: [{
+          breakpoint: 480,
+          options: {
+            chart: {
+              width: 200
+            },
+            legend: {
+              position: 'bottom'
+            }
+          }
+        }]
+        };
+
+        var chart = new ApexCharts(document.querySelector("#chart1"), options);
+        chart.render();
+      
+      
+    
+   </script>
+
+ 
+</body>
+</html>
